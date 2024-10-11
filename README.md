@@ -51,7 +51,7 @@ This Python script monitors a specified URL for WebRTC streaming activity and se
 Run the script with the following command:
 
 ```
-python webrtc_stream_detector.py --url https://example.com/stream --interval 30
+python poll_bbox_notify_discord.py --url https://example.com/stream --interval 30
 ```
 
 Arguments:
@@ -72,10 +72,6 @@ The script will continuously monitor the specified URL and send notifications to
 - If you encounter issues with Chrome driver, ensure you have the latest version of Google Chrome installed.
 - Make sure your Discord bot has the necessary permissions to send messages in the specified channel.
 - Check that your `.env` file is in the same directory as the script and contains the correct Discord bot token and channel ID.
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/yourusername/webrtc-stream-detector/issues) if you want to contribute.
 
 ## License
 
